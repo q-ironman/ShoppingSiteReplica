@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Categories>
+  <Category>
+    <ID>1</ID>
+    <Name>Elektronik</Name>
+    <ParentID></ParentID>
+  </Category>
+  <Category>
+    <ID>2</ID>
+    <Name>Cep Telefonu</Name>
+    <ParentID>1</ParentID>
+  </Category>
+</Categories>

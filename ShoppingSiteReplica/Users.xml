@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+  <User>
+    <UserID>1</UserID>
+    <Name>Osman</Name>
+    <LastName>Ceylan</LastName>
+    <Email>oceylankou@gmail.com</Email>
+    <Password>034203Cey.</Password>    
+  </User>
+  <User>
+    <UserID>2</UserID>
+    <Name>Şevket</Name>
+    <LastName>Şahbaz</LastName>
+    <Email>sevketsahbaz@gmail.com</Email>
+    <Password>sahbaz42.</Password>
+  </User>
+</Users>
