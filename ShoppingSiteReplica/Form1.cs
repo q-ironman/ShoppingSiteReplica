@@ -28,7 +28,11 @@ namespace ShoppingSiteReplica
             FUsers allUSersForm = new FUsers();
             bool isLogin = lgnService.Login(userLogin);
             if (isLogin)
-                allUSersForm.ShowDialog();
+            {
+                FCategories fCategories = new FCategories();
+                fCategories.ShowDialog();
+            }
+            
             else
                 MessageBox.Show("Email or password is incorrect");
         }
