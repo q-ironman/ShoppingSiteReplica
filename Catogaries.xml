@@ -1,13 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Categories>
   <Category>
-    <ID>1</ID>
+    <ID>638dc601-730c-41a6-a0e1-709c58ac40f9</ID>
     <Name>Elektronik</Name>
     <ParentID></ParentID>
   </Category>
   <Category>
-    <ID>2</ID>
+    <ID>027d99c0-e9e2-4813-a55f-e146a8c71933</ID>
     <Name>Cep Telefonu</Name>
-    <ParentID>1</ParentID>
+    <ParentID>638dc601-730c-41a6-a0e1-709c58ac40f9</ParentID>
+  </Category>
+  <Category>
+    <ID>65b637e0-7ee1-4818-b635-d0db23e1cf63</ID>
+    <Name>Beyas Esya</Name>
+    <ParentID>638dc601-730c-41a6-a0e1-709c58ac40f9</ParentID>
+  </Category>
+  <Category>
+    <ID>7a3c83cd-e994-46af-a24a-a26fbf19d367</ID>
+    <Name>Dondurucu</Name>
+    <ParentID>65b637e0-7ee1-4818-b635-d0db23e1cf63</ParentID>
+  </Category>
+  <Category>
+    <ID>e59c9f32-4ca8-4edd-b7c8-41a1c63f231a</ID>
+    <Name>Derin Dondurucu</Name>
+    <ParentID>7a3c83cd-e994-46af-a24a-a26fbf19d367</ParentID>
+  </Category>
+  <Category>
+    <ID>63b2242f-702f-4b48-b2d7-320a0281f51a</ID>
+    <Name>Bilgisayar</Name>
+    <ParentID>638dc601-730c-41a6-a0e1-709c58ac40f9</ParentID>
+  </Category>
+  <Category>
+    <ID>2bfcaf57-64cc-4727-9508-078a15bae7ed</ID>
+    <Name>Dizüstü</Name>
+    <ParentID>63b2242f-702f-4b48-b2d7-320a0281f51a</ParentID>
   </Category>
 </Categories>

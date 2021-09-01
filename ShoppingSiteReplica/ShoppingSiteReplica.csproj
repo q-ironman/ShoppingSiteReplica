@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCategories.Designer.cs">
+      <DependentUpon>FCategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdIns.Designer.cs">
+      <DependentUpon>FrmUpdIns.cs</DependentUpon>
     </Compile>
     <Compile Include="FUsers.cs">
       <SubType>Form</SubType>
@@ -60,8 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FCategories.resx">
+      <DependentUpon>FCategories.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdIns.resx">
+      <DependentUpon>FrmUpdIns.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FUsers.resx">
       <DependentUpon>FUsers.cs</DependentUpon>
@@ -75,6 +93,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\ShoppingSiteReplica.Domain.Category.datasource" />
     <None Include="Properties\DataSources\ShoppingSiteReplica.Domain.User.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
